@@ -1,0 +1,24 @@
+body {
+    background: #020617;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Courier New', monospace;
+    color: #38bdf8;
+    overflow: hidden;
+}
+
+.ui {
+    position: absolute;
+    top: 20px;
+    font-size: 1.5rem;
+    text-shadow: 0 0 10px #38bdf8;
+}
+
+canvas {
+    background: radial-gradient(circle, #1e293b 0%, #020617 100%);
+    border: 2px solid #334155;
+    box-shadow: 0 0 50px rgba(56, 189, 248, 0.1);
+}
